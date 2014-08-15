@@ -1,0 +1,14 @@
+{
+    "name": "PocketRent/hhvm-pgsql",
+    "description": "Postgres Extension for the HipHop PHP Virtual Machine",
+    "type": "extension",
+    "require": {
+        "hhvm/debian-composer-plugin": "dev-master"
+    },
+    "extra": {
+        "apt-get": {
+            "default": ["libpq-dev"]
+        }
+    },
+    "minimum-stability": "dev"
+}
